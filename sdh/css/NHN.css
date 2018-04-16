@@ -1,0 +1,39 @@
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.wap{width:1000px; height: auto; margin: 0 auto; }
+/*header*/
+header{height: 145px;width: 1000px;margin: auto;}
+a{text-decoration: none;color: #000;}
+#mainlogo{float:left; }
+#but{float:right;}
+#menu{float:right;}
+ul{list-style:none;}
+
+#logo{
+    height: 90px;
+    float: left;
+}
+#log{
+    float:right;
+    width: 500px;
+}
+#log>ul>li{
+    float:left;
+    border: 1px solid aliceblue;
+    margin: 3px;
+}
+#log {margin-top: 35px;}
+#main{width:1000px;height:95px; border-bottom: 5px double black;}
+
+/*드롭다운*/
+#dr{width:1000px; height: 50px;}
+#dr>ul{background-color: blue; }
+#dr>ul>li {width:250px; height:50px; float: left; line-height: 50px; text-align: center; border-bottom: 5px double black; z-index:99; }
+#dr>ul>li:hover>ul>li {width:250px; height:50px; }
+#dr>ul>li>ul>li {width:250px; height: 0; overflow: hidden; line-height: 50px; text-align: center; background-color: #fff7f2; z-index: 99; position: relative; transition: all 0.5s; border-radius: 4px }
+#dr>ul>li>ul{height:50px;}
+a{ line-height: 50px; text-align: center;}
+/*이미지 슬라이드*/
+#slide{width:1000px; margin: 0 auto;}
+#slide>img{width:1000px; height:500px; z-index: 1;}
+

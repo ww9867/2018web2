@@ -1,6 +1,6 @@
 
 *{margin: 0; padding: 0; box-sizing: border-box;}
-.wap{width:1000px; height: auto; margin: 0 auto; }
+#wrap{width:1000px; height: auto; margin: 0 auto; }
 /*header*/
 header{height: 145px;width: 1000px;margin: auto;}
 a{text-decoration: none;color: #000;}
@@ -23,19 +23,33 @@ ul{list-style:none;}
 
 /*드롭다운*/
 #dr{width:1000px; height: 50px;}
-#dr>ul{background-color: blue; }
 #dr>ul>li {width:250px; height:50px; float: left; line-height: 50px; text-align: center; border-bottom: 5px double black; z-index:99; }
 #dr>ul>li:hover>ul>li {width:250px; height:50px; }
 #dr>ul>li>ul>li {width:250px; height: 0; overflow: hidden; line-height: 50px; text-align: center; background-color: #fff7f2; z-index: 99; position: relative; transition: all 0.5s; border-radius: 4px }
 #dr>ul>li>ul{height:50px;}
 a{ line-height: 50px; text-align: center;}
 /*이미지 슬라이드*/
-#slide{width:1000px;height:500px; margin: 0 auto;overflow: hidden;}
+#slide{width:1000px;height:500px;overflow: hidden;}
 #slide>ul{
     position: relative;height:100%;}
 #slide>ul>li{width:100%;height:100%;
     position: absolute;left:100%;}
 #slide>ul>li:first-child{left:0;}
 #slide>ul>li>img{width:100%; height:100%; z-index: 1;}
-
+/*테이블*/
+table{ width:500px; height:auto;float: left; background-color: linen;}
+td{border:solid 1px white;}
+th{border:solid 1px white;}
+#lunch{width:500px; background-color: linen;  text-align:center;border:solid 1px white;float: left;}
+#lunch>img{width:300px; height:200px;}
+#calendar{float:left; width:500px; height:227px; text-align:center;border: solid 1px white; background-color:linen;}
+#calendar>p{font-size:60px}
+#number{text-align:center; background-color: peachpuff; width:250px; height:113px; margin: 0 auto;line-height: 100px; }
+#number>p{font-size:60px;}
+#number{font-size:50px;}
+#numberUpDown{font-size:60px;}
+#decreaseQuantity{font-size:40px;}
+#increaseQuantity{font-size:40px;}
+/*푸터*/
+#foot{width:100%; height: 300px; background-color: seashell;}
 

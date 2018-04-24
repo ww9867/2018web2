@@ -18,9 +18,10 @@ ul{list-style:none;}
 #log>ul>li{
     float:left; border: 1px solid aliceblue; margin: 3px;
 }
-#log {margin-top: 35px;}
-#main{width:1000px;height:95px; border-bottom: 5px double black;}
-
+#log {margin-top: 25px;}
+#but {margin-top: 17px;}
+#main{width:1000px;height:95px; border-bottom: 5px double black; }
+section{height: 1350px; width:1000px; margin: auto; background-color: linen;  border-bottom: 5px double black ; }
 /*드롭다운*/
 #dr{width:1000px; height: 50px;}
 #dr>ul>li {width:250px; height:50px; float: left; line-height: 50px; text-align: center; border-bottom: 5px double black; z-index:99; }
@@ -37,7 +38,7 @@ a{ line-height: 50px; text-align: center;}
 #slide>ul>li:first-child{left:0;}
 #slide>ul>li>img{width:100%; height:100%; z-index: 1;}
 /*테이블*/
-table{ width:500px; height:auto;float: left; background-color: linen;}
+table{ width:500px; height:auto;float: left; background-color: linen; }
 td{border:solid 1px white;}
 th{border:solid 1px white;}
 #lunch{width:500px; background-color: linen;  text-align:center;border:solid 1px white;float: left;}
@@ -50,6 +51,10 @@ th{border:solid 1px white;}
 #numberUpDown{font-size:60px;}
 #decreaseQuantity{font-size:40px;}
 #increaseQuantity{font-size:40px;}
+
+/*지도*/
+#map{width: 1000px; height: 200px; text-align: center; background-color:black }
+#map > iframe{padding-top: 30px;}
 /*푸터*/
-#foot{width:100%; height: 300px; background-color: seashell;}
+#last{height:150px; width:100%; margin:0 auto; background-color: lavender; text-align: center; border-top:100px;}
 
